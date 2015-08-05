@@ -1,0 +1,29 @@
+{
+  "name": "jspm-test",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "browser-sync": "^2.8.2",
+    "jspm": "^0.15.7"
+  },
+  "jspm": {
+    "directories": {},
+    "dependencies": {
+      "bootstrap": "github:twbs/bootstrap@^3.3.5",
+      "css": "github:systemjs/plugin-css@^0.1.13",
+      "json": "github:systemjs/plugin-json@^0.1.0",
+      "kendo-ui": "github:kendo-labs/bower-kendo-ui@^2015.2.803",
+      "text": "github:systemjs/plugin-text@^0.0.2"
+    },
+    "devDependencies": {
+      "traceur": "github:jmcriffey/bower-traceur@0.0.88",
+      "traceur-runtime": "github:jmcriffey/bower-traceur-runtime@0.0.88"
+    }
+  }
+}
